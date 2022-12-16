@@ -1,1 +1,6 @@
-
+spring:
+  mvc:
+    servlet:
+      path: "/api"
+      multipart:
+        max-file-size: "5MB"
